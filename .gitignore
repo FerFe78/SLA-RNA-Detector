@@ -1,0 +1,31 @@
+# Python artifacts
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.venv/
+pip-log.txt
+
+# Large models and data
+data/*.csv
+data/*.xlsx
+data/*.fasta
+!data/SLA_limpio.csv
+
+# Output and checkpoints
+**/output/
+**/output_dengue/
+**/*.pth
+**/*.pkl
+**/*.h5
+**/*.joblib
+
+# Documentation artifacts
+docs/*.aux
+docs/*.log
+docs/*.toc
+docs/*.out
+docs/*.synctex.gz
